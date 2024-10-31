@@ -1,0 +1,148 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: roboto;
+}
+
+.main-container{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(#fdffff, #ca5c6b);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    padding-right: 200px;
+}
+
+    .main-box{
+        width: 400px;
+        height: 400px;
+        background: #be3d43;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 10px;
+    }
+
+    .show-answer{
+        width: 100%;
+        height: 55px;
+        background: #fb6868;
+        margin: 0px 0px 60px 0px;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color:#fff;
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+
+    .box1{
+        display: flex;
+    }
+
+    .intext11,#intext2{
+        width: 76px;
+        font-size: 20px;
+        font-weight: 600;
+        height: 55px;
+        padding: 0px 10px;
+        text-align: center;
+        border: none;
+        background: #fff;
+        box-shadow: 1px 1px 0px #999,
+        2px 2px 0px #999,
+        3px 2px 0px #999,
+        4px 4px 0px #999,
+        5px 5px 0px #999;
+    }
+
+    .add-s{
+        margin: 13px 20px 12px 21px;
+        font-size: 25px;
+    }
+
+    #intext2{
+        width: 180px;
+        height: 35px;
+        margin: 30px 0px;
+        padding: 0px 15px;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 600;
+        border: none;
+        border-bottom-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    .btn{
+        padding: 8px 20px;
+        border: none;
+        font-size: 16px;
+        color: #fff;
+        background: #fb6868;
+        box-shadow: 1px 1px 0px #999,
+        2px 2px 0px #999,
+        3px 2px 0px #999,
+        4px 4px 0px #999,
+        5px 5px 0px #999;
+        border-bottom-left-radius: 10px;
+        border-top-right-radius: 10px;
+   
+    }
+
+    .main h1{
+        margin: 30px 0px;
+    }
+    .main h1 span{
+        color: #fb6868;
+    }
+
+.judul{
+    width: 600px;
+    height: auto;
+    margin: auto;
+    color: #000;
+    position: relative;
+    padding-left: 50px;
+}
+
+.judul1 h1{    
+    font-family:'Josefin Sans', sans-serif;
+    font-size: 60px;
+    letter-spacing: 2px;
+    margin-top: 100px;
+    color: rgb(163, 55, 73);
+
+}
+
+.judul2 h2{
+    font-size: 40px;
+    margin: 20px;
+    height: 25px;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+.judul2 .paragraf{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial, sans-serif;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    margin-top: 10px;
+}
+
+/* .judul1 .berjudul{
+    height: 40vh;
+    background: transparent;
+} */
